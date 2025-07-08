@@ -1,0 +1,11 @@
+[2025-07-08 11:56:28,123] 16 -INFO -Initiate the data ingestion
+[2025-07-08 11:56:43,832] 84 -INFO -Performed train test split on the dataframe
+[2025-07-08 11:56:43,832] 86 -INFO -Exited split_data_as_train_test method of Data_Ingestion class
+[2025-07-08 11:56:43,836] 94 -INFO -Exporting train and test file path.
+[2025-07-08 11:56:44,011] 103 -INFO -Exported train and test file path.
+[2025-07-08 11:56:44,012] 19 -INFO -Data Initiation Completed
+[2025-07-08 11:56:44,022] 22 -INFO -Initiate the data Validation
+[2025-07-08 11:56:44,076] 30 -INFO -Required number of columns:2
+[2025-07-08 11:56:44,080] 31 -INFO -Data frame has columns:31
+[2025-07-08 11:56:44,454] 24 -INFO -Data Validation Completed
+[2025-07-08 11:56:44,455] 30 -INFO -data Transformation started
