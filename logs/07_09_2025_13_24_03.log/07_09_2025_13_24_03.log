@@ -1,0 +1,21 @@
+[2025-07-09 13:24:05,520] 17 -INFO -Initiate the data ingestion
+[2025-07-09 13:24:18,184] 84 -INFO -Performed train test split on the dataframe
+[2025-07-09 13:24:18,185] 86 -INFO -Exited split_data_as_train_test method of Data_Ingestion class
+[2025-07-09 13:24:18,185] 94 -INFO -Exporting train and test file path.
+[2025-07-09 13:24:18,313] 103 -INFO -Exported train and test file path.
+[2025-07-09 13:24:18,315] 20 -INFO -Data Initiation Completed
+[2025-07-09 13:24:18,327] 23 -INFO -Initiate the data Validation
+[2025-07-09 13:24:18,377] 30 -INFO -Required number of columns:2
+[2025-07-09 13:24:18,381] 31 -INFO -Data frame has columns:31
+[2025-07-09 13:24:18,621] 25 -INFO -Data Validation Completed
+[2025-07-09 13:24:18,621] 27 -INFO -data Transformation started
+[2025-07-09 13:24:18,621] 66 -INFO -Entered initiate_data_transformation method of DataTransformation class
+[2025-07-09 13:24:18,621] 68 -INFO -Starting data transformation
+[2025-07-09 13:24:18,670] 50 -INFO -Entered get_data_trnasformer_object method of Trnasformation class
+[2025-07-09 13:24:18,670] 56 -INFO -Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[2025-07-09 13:24:18,694] 32 -INFO -data Transformation completed
+[2025-07-09 13:24:18,694] 34 -INFO -Model Training started 
+[2025-07-09 13:24:35,853] 52 -INFO -Entered the save_object method of MainUtils class
+[2025-07-09 13:24:35,862] 56 -INFO -Exited the save_object method of MainUtils class
+[2025-07-09 13:24:35,862] 110 -INFO -Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\07_09_2025_13_24_03\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9912789232242779, precision_score=0.988140703517588, recall_score=0.9944371396783656), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.9825712528193562, precision_score=0.9779591836734693, recall_score=0.9872270292542233))
+[2025-07-09 13:24:35,862] 39 -INFO -Model Training artifact created
