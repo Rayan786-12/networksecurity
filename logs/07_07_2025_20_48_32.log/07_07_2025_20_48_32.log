@@ -1,6 +1,0 @@
-[2025-07-07 20:48:33,587] 14 -INFO -Initiate the data ingestion
-[2025-07-07 20:48:38,689] 84 -INFO -Performed train test split on the dataframe
-[2025-07-07 20:48:38,689] 86 -INFO -Exited split_data_as_train_test method of Data_Ingestion class
-[2025-07-07 20:48:38,689] 94 -INFO -Exporting train and test file path.
-[2025-07-07 20:48:38,828] 103 -INFO -Exported train and test file path.
-[2025-07-07 20:48:38,832] 17 -INFO -Data Initiation Completed

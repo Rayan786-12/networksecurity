@@ -1,0 +1,27 @@
+[2025-07-09 21:27:32,528] 1025 -INFO -HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-07-09 21:27:32,531] 107 -INFO -Accessing as Rayan786-12
+[2025-07-09 21:27:32,862] 1025 -INFO -HTTP Request: GET https://dagshub.com/api/v1/repos/Rayan786-12/networksecurity "HTTP/1.1 200 OK"
+[2025-07-09 21:27:33,144] 1025 -INFO -HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-07-09 21:27:33,155] 107 -INFO -Initialized MLflow to track repo "Rayan786-12/networksecurity"
+[2025-07-09 21:27:33,155] 107 -INFO -Repository Rayan786-12/networksecurity initialized!
+[2025-07-09 21:27:33,160] 17 -INFO -Initiate the data ingestion
+[2025-07-09 21:27:37,106] 84 -INFO -Performed train test split on the dataframe
+[2025-07-09 21:27:37,106] 86 -INFO -Exited split_data_as_train_test method of Data_Ingestion class
+[2025-07-09 21:27:37,106] 94 -INFO -Exporting train and test file path.
+[2025-07-09 21:27:37,174] 103 -INFO -Exported train and test file path.
+[2025-07-09 21:27:37,174] 20 -INFO -Data Initiation Completed
+[2025-07-09 21:27:37,186] 23 -INFO -Initiate the data Validation
+[2025-07-09 21:27:37,218] 30 -INFO -Required number of columns:2
+[2025-07-09 21:27:37,218] 31 -INFO -Data frame has columns:31
+[2025-07-09 21:27:37,347] 25 -INFO -Data Validation Completed
+[2025-07-09 21:27:37,347] 27 -INFO -data Transformation started
+[2025-07-09 21:27:37,347] 66 -INFO -Entered initiate_data_transformation method of DataTransformation class
+[2025-07-09 21:27:37,347] 68 -INFO -Starting data transformation
+[2025-07-09 21:27:37,386] 50 -INFO -Entered get_data_trnasformer_object method of Trnasformation class
+[2025-07-09 21:27:37,386] 56 -INFO -Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[2025-07-09 21:27:37,407] 52 -INFO -Entered the save_object method of MainUtils class
+[2025-07-09 21:27:37,411] 56 -INFO -Exited the save_object method of MainUtils class
+[2025-07-09 21:27:37,411] 52 -INFO -Entered the save_object method of MainUtils class
+[2025-07-09 21:27:37,411] 56 -INFO -Exited the save_object method of MainUtils class
+[2025-07-09 21:27:37,411] 32 -INFO -data Transformation completed
+[2025-07-09 21:27:37,411] 34 -INFO -Model Training started 

@@ -1,0 +1,33 @@
+[2025-07-09 21:59:53,218] 1025 -INFO -HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-07-09 21:59:53,222] 107 -INFO -Accessing as Rayan786-12
+[2025-07-09 21:59:53,566] 1025 -INFO -HTTP Request: GET https://dagshub.com/api/v1/repos/Rayan786-12/networksecurity "HTTP/1.1 200 OK"
+[2025-07-09 21:59:53,865] 1025 -INFO -HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-07-09 21:59:53,865] 107 -INFO -Initialized MLflow to track repo "Rayan786-12/networksecurity"
+[2025-07-09 21:59:53,865] 107 -INFO -Repository Rayan786-12/networksecurity initialized!
+[2025-07-09 21:59:53,865] 17 -INFO -Initiate the data ingestion
+[2025-07-09 21:59:58,425] 84 -INFO -Performed train test split on the dataframe
+[2025-07-09 21:59:58,425] 86 -INFO -Exited split_data_as_train_test method of Data_Ingestion class
+[2025-07-09 21:59:58,426] 94 -INFO -Exporting train and test file path.
+[2025-07-09 21:59:58,518] 103 -INFO -Exported train and test file path.
+[2025-07-09 21:59:58,518] 20 -INFO -Data Initiation Completed
+[2025-07-09 21:59:58,518] 23 -INFO -Initiate the data Validation
+[2025-07-09 21:59:58,561] 30 -INFO -Required number of columns:2
+[2025-07-09 21:59:58,561] 31 -INFO -Data frame has columns:31
+[2025-07-09 21:59:58,818] 25 -INFO -Data Validation Completed
+[2025-07-09 21:59:58,818] 27 -INFO -data Transformation started
+[2025-07-09 21:59:58,818] 66 -INFO -Entered initiate_data_transformation method of DataTransformation class
+[2025-07-09 21:59:58,818] 68 -INFO -Starting data transformation
+[2025-07-09 21:59:58,870] 50 -INFO -Entered get_data_trnasformer_object method of Trnasformation class
+[2025-07-09 21:59:58,870] 56 -INFO -Initialise KNNImputer with {'missing_values': nan, 'n_neighbors': 3, 'weights': 'uniform'}
+[2025-07-09 21:59:58,888] 52 -INFO -Entered the save_object method of MainUtils class
+[2025-07-09 21:59:58,892] 56 -INFO -Exited the save_object method of MainUtils class
+[2025-07-09 21:59:58,892] 52 -INFO -Entered the save_object method of MainUtils class
+[2025-07-09 21:59:58,896] 56 -INFO -Exited the save_object method of MainUtils class
+[2025-07-09 21:59:58,896] 32 -INFO -data Transformation completed
+[2025-07-09 21:59:58,896] 34 -INFO -Model Training started 
+[2025-07-09 22:00:28,215] 52 -INFO -Entered the save_object method of MainUtils class
+[2025-07-09 22:00:28,215] 56 -INFO -Exited the save_object method of MainUtils class
+[2025-07-09 22:00:28,215] 52 -INFO -Entered the save_object method of MainUtils class
+[2025-07-09 22:00:28,215] 56 -INFO -Exited the save_object method of MainUtils class
+[2025-07-09 22:00:28,215] 114 -INFO -Model trainer artifact: ModelTrainerArtifact(trained_model_file_path='Artifacts\\07_09_2025_21_59_51\\model_trainer\\trained_model\\model.pkl', train_metric_artifact=ClassificationMetricArtifact(f1_score=0.9911120088879911, precision_score=0.9893134388547232, recall_score=0.9929171304259841), test_metric_artifact=ClassificationMetricArtifact(f1_score=0.9864643150123051, precision_score=0.983640081799591, recall_score=0.9893048128342246))
+[2025-07-09 22:00:28,215] 39 -INFO -Model Training artifact created

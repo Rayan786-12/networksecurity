@@ -10,3 +10,6 @@
 #   -e .
 pyaml
 dill
+dagshub
+fastapi
+uvicorn
