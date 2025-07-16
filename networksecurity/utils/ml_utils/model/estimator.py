@@ -2,7 +2,7 @@ from networksecurity.constant.training_pipeline import SAVED_MODEL_DIR,MODEL_FIL
 
 import os
 import sys
-
+import pandas as pd
 from networksecurity.exception.exception import NetworkSecurityException
 from networksecurity.logging.logger import logging
 from networksecurity.logging.logger import logging
@@ -14,11 +14,15 @@ class NetworkModel:
             self.model=model
         except Exception as e:
             raise NetworkSecurityException(e,sys)
-    def predict(self,x):
+    def predict(self, x: pd.DataFrame):
         try:
-            x_transform=self.preprocessor.transform(x)
-            y_hat=self.model.predict(x_transform)
-            return y_hat
+        # Drop the "Result" column if it exists
+            if "Result" in x.columns:
+                x = x.drop(columns=["Result"])
+
+            x_transform = self.preprocessor.transform(x)
+            prediction = self.model.predict(x_transform)
+            return prediction
         except Exception as e:
-            raise NetworkSecurityException(e,sys)
+            raise NetworkSecurityException(e, sys)
         

@@ -3,7 +3,7 @@
   numpy
   pymongo 
   certifi
-  pymongo[srv]==3.6
+  pymongo[srv]==4.13.2
   pymongo
   scikit-learn
   mlflow
@@ -11,5 +11,10 @@
 pyaml
 dill
 dagshub
+mlflow
 fastapi
+dagshub
 uvicorn
+setuptools
+python-multipart
+wheels

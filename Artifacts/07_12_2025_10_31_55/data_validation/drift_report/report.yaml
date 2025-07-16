@@ -1,0 +1,93 @@
+Abnormal_URL:
+  drift_status: false
+  p_value: 0.8624907735168865
+DNSRecord:
+  drift_status: false
+  p_value: 0.9999999932691597
+Domain_registeration_length:
+  drift_status: false
+  p_value: 0.6000821390660234
+Favicon:
+  drift_status: false
+  p_value: 1.0
+Google_Index:
+  drift_status: false
+  p_value: 0.9999999797009747
+HTTPS_token:
+  drift_status: false
+  p_value: 0.9999988894018609
+Iframe:
+  drift_status: false
+  p_value: 1.0
+Links_in_tags:
+  drift_status: false
+  p_value: 0.9999968024420123
+Links_pointing_to_page:
+  drift_status: false
+  p_value: 0.9994193854231465
+Page_Rank:
+  drift_status: false
+  p_value: 0.9999999797009747
+Prefix_Suffix:
+  drift_status: false
+  p_value: 1.0
+Redirect:
+  drift_status: false
+  p_value: 0.9518099343765413
+Request_URL:
+  drift_status: false
+  p_value: 0.6113493016762657
+Result:
+  drift_status: false
+  p_value: 0.9999321298038519
+RightClick:
+  drift_status: false
+  p_value: 0.9999999999999994
+SFH:
+  drift_status: false
+  p_value: 0.7242595407673655
+SSLfinal_State:
+  drift_status: false
+  p_value: 0.3179707292785823
+Shortining_Service:
+  drift_status: false
+  p_value: 0.9985585060006267
+Statistical_report:
+  drift_status: false
+  p_value: 0.47526942346189605
+Submitting_to_email:
+  drift_status: false
+  p_value: 0.9993169455931838
+URL_Length:
+  drift_status: false
+  p_value: 0.9999999999999919
+URL_of_Anchor:
+  drift_status: false
+  p_value: 0.9999999999999148
+age_of_domain:
+  drift_status: false
+  p_value: 0.999999999973084
+double_slash_redirecting:
+  drift_status: false
+  p_value: 1.0
+having_At_Symbol:
+  drift_status: false
+  p_value: 0.896205213334659
+having_IP_Address:
+  drift_status: true
+  p_value: 0.016063731995681032
+having_Sub_Domain:
+  drift_status: false
+  p_value: 0.6453138528352841
+on_mouseover:
+  drift_status: false
+  p_value: 1.0
+popUpWidnow:
+  drift_status: false
+  p_value: 1.0
+port:
+  drift_status: false
+  p_value: 1.0
+web_traffic:
+  drift_status: false
+  p_value: 0.5281942333058369

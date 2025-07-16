@@ -46,7 +46,7 @@ DATA_TRANSFORMATION_TRANSFORMED_OBJECT_DIR:str='transformed_object'
 DATA_TRANSFORMATION_IMPUTER_PARAMS:dict={
     'missing_values':np.nan,
     'n_neighbors':3,
-    'weights':"uniform",
+    'weights':"uniform"
 
 }
 DATA_TRANSFORMATION_TRAIN_FILE_PATH: str = "train.npy"
@@ -64,4 +64,4 @@ MODEL_TRAINER_TRAINED_MODEL_NAME: str = "model.pkl"
 MODEL_TRAINER_EXPECTED_SCORE: float = 0.6
 MODEL_TRAINER_OVER_FIITING_UNDER_FITTING_THRESHOLD: float = 0.05
 
-TRAINING_BUCKET_NAME = "netwworksecurity"
+TRAINING_BUCKET_NAME = "noob786"

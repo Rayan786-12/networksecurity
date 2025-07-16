@@ -1,0 +1,14 @@
+<!-- templates/predict.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload CSV for Prediction</title>
+</head>
+<body>
+    <h2>Upload CSV file to Predict</h2>
+    <form action="/predict" enctype="multipart/form-data" method="post">
+        <input name="file" type="file" accept=".csv" required>
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>

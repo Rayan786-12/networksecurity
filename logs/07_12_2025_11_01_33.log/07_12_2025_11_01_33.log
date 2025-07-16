@@ -1,0 +1,6 @@
+[2025-07-12 11:01:36,534] 1025 -INFO -HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-07-12 11:01:36,538] 107 -INFO -Accessing as Rayan786-12
+[2025-07-12 11:01:36,940] 1025 -INFO -HTTP Request: GET https://dagshub.com/api/v1/repos/Rayan786-12/networksecurity "HTTP/1.1 200 OK"
+[2025-07-12 11:01:37,344] 1025 -INFO -HTTP Request: GET https://dagshub.com/api/v1/user "HTTP/1.1 200 OK"
+[2025-07-12 11:01:37,352] 107 -INFO -Initialized MLflow to track repo "Rayan786-12/networksecurity"
+[2025-07-12 11:01:37,352] 107 -INFO -Repository Rayan786-12/networksecurity initialized!
