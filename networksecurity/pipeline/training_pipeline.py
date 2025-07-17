@@ -18,10 +18,10 @@ from networksecurity.entity.config_entity import(
 )
 from networksecurity.cloud.s3_syncer import S3Sync  # Make sure this is the correct path
 
-class TrainingPipeline:
-    def __init__(self):
-        self.training_pipeline_config = TrainingPipelineConfig()
-        self.s3_sync = S3Sync()  # ✅ ADD THIS
+# class TrainingPipeline:
+#     def __init__(self):
+#         self.training_pipeline_config = TrainingPipelineConfig()
+#         self.s3_sync = S3Sync()  # ✅ ADD THIS
 
 from networksecurity.entity.artifact_entity import (
     DataIngestionArtifact,
