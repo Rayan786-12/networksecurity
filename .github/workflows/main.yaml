@@ -90,3 +90,17 @@ jobs:
     #     IMAGE_TAG=latest
     #     IMAGE_REPO=${{ secrets.ECR_REPOSITORY }}
     #     docker push $IMAGE_REPO:$IMAGE_TAG
+    - name: Build and push Docker image to ECR
+      id:  build-and-push
+      env:
+        ECR_REGISTRY: ${{ secrets.login-ecr.outputs.registry }}
+        ECR_REPOSITORY: ${{ secrets.ECR_REPOSITORY_NAME}}
+        IMAGE_TAG: latest
+      run: |
+        # Build a docker container and
+        # push it to ECT SO THAT it can be deployed in ECS
+
+        docker build -t $ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
+        docker push ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG 
+        echo"::set-output name=image::$ECR_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG"
+        
