@@ -1,23 +1,22 @@
 FROM python:3.10-slim-buster
 
-# Set the working directory
 WORKDIR /app
 
-# Install system dependencies (including awscli)
+# Set noninteractive mode to avoid prompts
+ENV DEBIAN_FRONTEND=noninteractive
+
+# Update and install awscli with debug info
 RUN apt-get update && \
-    apt-get install -y awscli && \
+    apt-get install -y --no-install-recommends awscli && \
+    apt-get clean && \
     rm -rf /var/lib/apt/lists/*
 
-# Copy only requirements first for better layer caching
 COPY requirements.txt .
 
-# Install Python dependencies
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the rest of the application
 COPY . .
 
-# Run the application
 CMD ["python3", "app.py"]
 
 
