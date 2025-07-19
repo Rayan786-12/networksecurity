@@ -1,20 +1,14 @@
-  python-dotenv
-  pandas
-  numpy
-  pymongo 
-  certifi
-  pymongo[srv]==4.13.2
-  pymongo
-  scikit-learn
-  mlflow
-#   -e .
+python-dotenv
+pandas
+numpy
+pymongo[srv]==4.13.2
+scikit-learn
+mlflow
 pyaml
 dill
 dagshub
-mlflow
 fastapi
-dagshub
 uvicorn
 setuptools
 python-multipart
-wheels
+wheel
